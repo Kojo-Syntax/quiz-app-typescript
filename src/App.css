@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Rubik;
+  src: url(https://fonts.googleapis.com/css?family=Rubik);
+}
+@import url('https:fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif;
+}
+
+:root {
+    --Purple: #A729F5;
+    --Light-Bluish: #ABC1E1;
+    --Red: #EE5454;
+    --Dark-Navy: #313E51;
+    --Navy: #3B4D66;
+    --Light-Grey: #F4F6FA;
+    --White: #FFFFFF;
+    --Grey-Navy: #626C7F;
+    --Green: #26D782;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.home {
+    background-image:url('assets/pattern-background-desktop-light.svg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color: var(--Light-Grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15rem;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.headers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+
+.main h3{
+    color: var(--Dark-Navy);
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+.main h2{
+    color: var(--Dark-Navy);
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.main p{
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--Grey-Navy);
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-left: 4rem;
+}
+
+.nav a{
+    display: flex;
+    width: 35.25rem;
+    height: auto;
+    padding: 1.25rem;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1.5rem;
+    background: var(--White);
+    box-shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--Dark-Navy);
+}
+
+.nav a img{
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+}
